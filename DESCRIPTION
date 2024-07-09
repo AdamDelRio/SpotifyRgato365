@@ -1,0 +1,29 @@
+Package: SpotifyR_gato365
+Title: R Package For Accessing Spotify API
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Adam", "Del Rio", email = "adamdelrio8523@gmail.com", role = c("aut", "cre")),
+    person("Ken", "Xie", email = "kenxie100@gmail.com", role = c("aut")),
+    person("Emily", "Zhu", email = "emilyz81825@gmail.com", role = c("aut")),
+    person("Immanuel", "Williams", email = "drwilliamsstatcalpoly@gmail.com", role = c("aut")))
+Description: An R package utilizing API calls from the Spotify Web API for data science purposes, with visualization examples included.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+  httr,
+  assertthat,
+  dplyr,
+  jsonlite,
+  lubridate,
+  purrr,
+  rvest,
+  stringr,
+  xml2,
+  magrittr,
+  tidyr,
+  scales,
+  fmsb,
+  ggplot2,
+  plotly
