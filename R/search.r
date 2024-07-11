@@ -53,5 +53,5 @@ search_helper <- function(query, type, authorization = get_spotify_access_token(
 #' @export
 search_spotify <- function(queries, type, authorization = get_spotify_access_token()){
     purrr::map_df(queries, ~search_helper(query = .x, type = type, authorization = authorization)) %>%
-    dplyr::bind_rows
+    bind_rows
 }
