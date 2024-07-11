@@ -1,4 +1,4 @@
-Package: SpotifyR.gato365
+Package: SpotifyRgato365
 Title: R Package For Accessing Spotify API
 Version: 0.0.0.9000
 Authors@R: c(
